@@ -148,3 +148,37 @@ nav ul li a {
     text-align: right;
     padding-top: 50px;
 }
+/* Featured CSS */
+.featured {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-image {
+    margin-right: 96px;
+}
+.featured-image img {
+    width: 404px;
+    height: 270px;
+}
+.featured-info h2 {
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0;
+}
+.featured-info p {
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn-solid {
+    background: #E02C6D;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 10px;
+}
